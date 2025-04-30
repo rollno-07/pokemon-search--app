@@ -5,7 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   Weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-  variable: "---font-jetbrainsMono",
+  variable: "--font-jetbrainsMono",
 });
 
 export const metadata = {
